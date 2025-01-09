@@ -11,7 +11,7 @@ CORS(app, resources={r"/*": {"origins": "https://social-ai-inky.vercel.app/"}}, 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
 LANGFLOW_ID = "260dcf0a-42f6-4ca3-98c4-e26ec3a625bf"
 FLOW_ID = "19c8dbb7-db16-42f1-a5fe-030ed14e79ac"
-APPLICATION = "AstraCS:xpcWpCfbRklnjXgGETbedvCX:0cf0e6ed84ce6d15de86ae1e366122ef09f87fee24b7e5a20660c4aaca86c4f1"
+APPLICATION = "AstraCS:EFovQzIfkragcZyhCkLEwOBn:99016181751ae87740fe2a73ee1d60166c97a7b36e3564500545df3ff7e3b677"
 
 @app.route("/analyze", methods=["POST"])
 def analyze():
