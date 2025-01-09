@@ -1,4 +1,5 @@
 python-dotenv
+python
 streamlit
 requests
 Flask
