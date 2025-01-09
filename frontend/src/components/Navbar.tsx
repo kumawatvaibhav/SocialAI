@@ -7,7 +7,7 @@ import { Menu, X, Github } from 'lucide-react'
 
 const navItems = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/About' },
+  { name: 'About', href: '/#about' },
   { name: 'Analzyer', href: '/Analzye' },
 ]
 
@@ -40,7 +40,7 @@ export default function Navbar() {
             </div>
             {/* GitHub Icon */}
             <a
-              href="https://github.com/your-repo-link"
+              href="https://github.com/kumawatvaibhav/SocialAI"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-4 text-teal-100 hover:text-white transition-colors duration-300"
@@ -85,7 +85,7 @@ export default function Navbar() {
           ))}
           {/* GitHub Icon in Mobile Menu */}
           <a
-            href="https://github.com/your-repo-link"
+            href="https://github.com/kumawatvaibhav/SocialAI"
             target="_blank"
             rel="noopener noreferrer"
             className="text-teal-100 hover:bg-teal-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300"

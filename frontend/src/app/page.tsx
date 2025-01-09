@@ -93,7 +93,9 @@ export default function Home() {
         </div>
       </section>
       
-      <TeamSection/>
+      <section id="about">
+        <TeamSection/>
+      </section>
     </div>
   )
 }
