@@ -30,7 +30,7 @@ const AnalyzerForm = () => {
   const [error, setError] = useState("");
   const [result, setResult] = useState<string | null>(null);
 
-  const API_URL = "http://192.168.0.111:5000";
+  const API_URL = "https://socialai-k071.onrender.com";
 
   const fetchAnalysis = async () => {
     setLoading(true);
