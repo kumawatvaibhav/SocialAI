@@ -1,0 +1,6 @@
+python-dotenv
+streamlit
+requests
+Flask
+Flask-Cors
+Pandas
