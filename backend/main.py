@@ -6,7 +6,7 @@ import os
 
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://social-ai-inky.vercel.app/"}}, supports_credentials=True)
+CORS(app, resources={r"/*": {"origins": "https://social-ai-inky.vercel.app"}}, supports_credentials=True)
 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
 LANGFLOW_ID = "260dcf0a-42f6-4ca3-98c4-e26ec3a625bf"
