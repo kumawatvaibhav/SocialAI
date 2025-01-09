@@ -2,7 +2,21 @@ import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-const TeamMemberCard = ({ member, index }) => {
+// Define the type for the member prop
+interface TeamMember {
+  image: string;
+  name: string;
+  role: string;
+  bio: string;
+}
+
+// Define the props for the component
+interface TeamMemberCardProps {
+  member: TeamMember;
+  index: number;
+}
+
+const TeamMemberCard: React.FC<TeamMemberCardProps> = ({ member, index }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -26,4 +40,3 @@ const TeamMemberCard = ({ member, index }) => {
 };
 
 export default TeamMemberCard;
-

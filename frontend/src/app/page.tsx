@@ -9,8 +9,15 @@ import AnalyticsWidget from '@/components/AnalyticsWidget'
 import Navbar from '@/components/Navbar'
 import TeamSection from '@/components/TeamSection'
 
+interface FeatureCardProps {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}
+
 export default function Home() {
 
+  
 
   const features = [
     {
@@ -80,7 +87,7 @@ export default function Home() {
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature, index) => (
-              <FeatureCard key={feature.title} {...feature} delay={index * 0.1} />
+              <FeatureCard key={feature.title} {...feature}/>
             ))}
           </div>
         </div>
@@ -91,7 +98,7 @@ export default function Home() {
   )
 }
 
-function FeatureCard({ icon, title, description }) {
+function FeatureCard({ icon, title, description }: FeatureCardProps) {
   return (
     <div className="bg-teal-700 bg-opacity-50 backdrop-filter backdrop-blur-lg border border-teal-500 rounded-lg p-6">
       <div className="flex items-center gap-4 text-yellow-300 mb-4">
@@ -100,6 +107,6 @@ function FeatureCard({ icon, title, description }) {
       </div>
       <p className="text-teal-100">{description}</p>
     </div>
-  )
+  );
 }
 

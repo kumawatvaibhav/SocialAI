@@ -28,7 +28,7 @@ const AnalyzerForm = () => {
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [result, setResult] = useState(null);
+  const [result, setResult] = useState<string | null>(null);
 
   const API_URL = "http://192.168.0.111:5000";
 
@@ -53,14 +53,6 @@ const AnalyzerForm = () => {
     }
   };
 
-  const normalizePostType = (postType) => {
-    const input = postType.toLowerCase().trim();
-    if (input.includes("reel")) return "reel";
-    if (input.includes("carousel")) return "carousel";
-    if (input.includes("static")) return "static_image";
-    if (input.includes("live")) return "live_stream";
-    return postType;
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-300 via-yellow-200 to-green-500 text-gray-800">
