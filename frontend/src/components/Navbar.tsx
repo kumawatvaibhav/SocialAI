@@ -8,7 +8,7 @@ import { Menu, X, Github } from 'lucide-react'
 const navItems = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/#about' },
-  { name: 'Analzyer', href: '/Analzye' },
+  { name: 'Analzyer', href: '/analyze' },
 ]
 
 export default function Navbar() {

@@ -63,7 +63,7 @@ export default function Home() {
               Harness the power of AI to revolutionize your social media strategy and skyrocket your engagement.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/Analzye" className="inline-block px-8 py-3 bg-gradient-to-r from-teal-400 to-green-500 hover:from-teal-500 hover:to-green-600 text-teal-900 font-bold rounded-lg text-lg transition-colors duration-300">
+              <Link href="/analyze" className="inline-block px-8 py-3 bg-gradient-to-r from-teal-400 to-green-500 hover:from-teal-500 hover:to-green-600 text-teal-900 font-bold rounded-lg text-lg transition-colors duration-300">
                 Explore <ArrowRight className="inline-block ml-2" />
               </Link>
               <a href="#features" className="inline-block px-8 py-3 border-2 border-teal-300 text-teal-300 hover:bg-teal-800 rounded-lg text-lg transition-colors duration-300">
