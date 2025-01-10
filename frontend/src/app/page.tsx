@@ -66,7 +66,7 @@ export default function Home() {
               <Link href="/analyze" className="inline-block px-8 py-3 bg-gradient-to-r from-teal-400 to-green-500 hover:from-teal-500 hover:to-green-600 text-teal-900 font-bold rounded-lg text-lg transition-colors duration-300">
                 Explore <ArrowRight className="inline-block ml-2" />
               </Link>
-              <a href="#features" className="inline-block px-8 py-3 border-2 border-teal-300 text-teal-300 hover:bg-teal-800 rounded-lg text-lg transition-colors duration-300">
+              <a href="https://www.youtube.com/watch?v=BLSkN8_8HWw" className="inline-block px-8 py-3 border-2 border-teal-300 text-teal-300 hover:bg-teal-800 rounded-lg text-lg transition-colors duration-300">
                 Watch Demo
               </a>
             </div>
